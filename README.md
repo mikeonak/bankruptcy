@@ -79,15 +79,14 @@ Attribute Information:
 ### The classification goal is to predict if there is the increased default risk.
 
 
-
-
 Repo contains:
 
-     readme.md
-     notebook.ipynb
-     script train.py
-     script predict.py
-     pipenv, pipenv.lock
+   *  readme.md
+   *  notebook.ipynb
+   *  script train.py
+   *  script predict.py
+   *  pipenv, pipenv.lock
+
 
 
 Instructions (if you have pipenv, docker, awsb installed (as you are in progress in zoomcamp-course I think you have :) ) please skip installation procedure. At first copy all files to your directory. Next steps:
