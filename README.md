@@ -75,8 +75,10 @@ Attribute Information:
      X62 (short-term liabilities *365) / sales
      X63 sales / short-term liabilities
      X64 sales / fixed assets
-The classification goal is to predict if the client will subscribe (yes/no) a term deposit (variable y).
-Based on client data, we can estimate probability of making deposit and decide if phone call to the client make sense
+
+The classification goal is to predict if there is the increased default risk.
+
+
 Repo contains:
 
 readme.md
@@ -86,7 +88,7 @@ script predict.py
 pipenv, pipenv.lock
 
 
-Instructions (if you have pipenv, docker, awsb installed (as you are in progress in zoomcamp-course a think you have :) ) please skip installation procedure. At first copy all files to your directory. Next steps:
+Instructions (if you have pipenv, docker, awsb installed (as you are in progress in zoomcamp-course I think you have :) ) please skip installation procedure. At first copy all files to your directory. Next steps:
 
 install pipenv
 
