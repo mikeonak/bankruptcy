@@ -13,13 +13,26 @@ The dataset contains five classification cases. I choose:
 Forecasting default in the 3-year futeure period is very difficult task as we have factors not strictly connected with financial indicators and the period is very long. As we can assume the highest impact on default probability have indicators connected with profits, capital na liabilites.
 The main problem with the data is high-imbalance.
 
-### Models evalutation
+### Models:
+
+I used:
+- Logistic Regression
+- KNeighborsClassifier
+- Decision Tree Model
+- Random Forest
+- CNN Keras
+- XGBoost
+
+
+
+### Models evaluation
 
 I use 3 metrics to evaluate the models  
 
 - ROC_AUC
 - F1-Score
 - average_precision_score
+As it is very imbalanced dataset I didn't take  accuracy into consideration.
 
 
 ### Attribute Information:
