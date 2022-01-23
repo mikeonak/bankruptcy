@@ -9,6 +9,9 @@ The dataset contains five classification cases. I choose:
 - 3rd Year - the data contains financial rates from 3rd year of the forecasting period and corresponding class label that indicates bankruptcy status after 3 years. The data contains 10503 instances (financial statements), 495 represents bankrupted companies, 10008 firms that did not bankrupt in the forecasting period.
 
 
+Commment: Forecasting default in the 3-year futeure period is very difficult task as we have factors not strictly connected with financial indicators and the period is very long. As we can assume the highest impact on default probability have indicators connected with profits, capital na liabilites.
+The main problem with the data is high-imbalance
+
 Attribute Information:
 
      X1 net profit / total assets
