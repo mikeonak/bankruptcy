@@ -136,4 +136,4 @@ Deploy model it locally (for testing):
         eb local run --port 9696
 Deploy in AWS Elasticbeanstalk:
 
-        eb create mterm-project-env
+        eb create final-project-env
