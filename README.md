@@ -155,7 +155,7 @@ Test the model using score.py:
         python score.py
          score_ebs.py
 
-As the model is also availablea on AWS Elastic Beanstalk you can test it using depo_client_score_ebs.py. The file contains url address. I deployed model according to below listed code:
+As the model is also availablea on AWS Elastic Beanstalk you can test it using ebs_scory.py. The file contains url address. I deployed model according to below listed code:
 
         eb init -p docker -r eu-central-1 final_project
 Deploy model it locally (for testing):
