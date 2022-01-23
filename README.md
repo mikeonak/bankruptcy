@@ -115,23 +115,23 @@ If service is not running:
     sudo service docker start
 Build docker file:
 
-    sudo docker build -t mterm_project .
+    sudo docker build -t capstone_project .
 Run the file:
 
-     sudo docker run -it --rm -p 9696:9696 mterm_project:latest
+     sudo docker run -it --rm -p 9696:9696 capstone_project:latest
 You can test if it works using described below file
 
-depo_client_score.py
+score.py
 
-Test the model using depo_client_score.py:
+Test the model using score.py:
 
-        python depo_client_score.py
-depo_client_score_ebs.py
+        python score.py
+         score_ebs.py
 
 As the model is also availablea on AWS Elastic Beanstalk you can test it using depo_client_score_ebs.py. The file contains url address. I deployed model according to below listed code:
 
-        eb init -p docker -r eu-central-1 mterm_project
-Deploy model it locally (for testeng):
+        eb init -p docker -r eu-central-1 final_project
+Deploy model it locally (for testing):
 
         eb local run --port 9696
 Deploy in AWS Elasticbeanstalk:
